@@ -1,0 +1,93 @@
+/*元素/标记/标签/html选择器*/
+ div {
+	color:red;
+}
+/*类选择器*/
+ .classname {
+	font-weight:bold;
+}
+/*id选择器*/
+ #idname {
+	background-color:blue;
+}
+/*子选择器*/
+ .food1>li {
+	border:1px solid red;
+}
+/*后代选择器*/
+ .food2 li {
+	border:1px solid red;
+}
+/*伪类选择器*/
+ a:link {
+	color:green;
+}
+a:visited {
+	color:black;
+}
+.btn:active {
+	background-color:yellow;
+}
+.txt:hover {
+	background-color:yellow;
+}
+.txt1:focus {
+	background-color:yellow;
+}
+/*演示盒子模型*/
+ .borderclass {
+	border:1px solid red;
+	width:200px;
+}
+.box1 {
+	border:2px dotted green;
+	width:70px;
+	/*四边设置*/
+	margin:30px;
+	padding:10px;
+}
+.box2 {
+	border:2px dotted green;
+	width:70px;
+	/*单边设置  上 右 下 左*/
+	margin:10px 20px 30px 40px;
+	padding:10px 20px 30px 40px;
+}
+.box3 {
+	border:2px dotted green;
+	width:70px;
+	/*单边设置  上下 左右*/
+	margin:20px 30px;
+	padding:20px 30px;
+}
+.box4 {
+	border:2px dotted green;
+	width:70px;
+	/*单边设置  上下 左右,当左右为auto的时候,水平居中*/
+	margin:20px auto;
+	padding:20px 30px;
+}
+.divbackgroundimage {
+	border:1px solid red;
+	height:500px;
+	width:800px;
+	background-image:url("../9.jpg");
+	background-repeat:no-repeat;
+}
+/*表格table的盒子模型*/
+.tableclass{
+	border:1px solid red;
+	width:300px;
+	margin:30px auto;
+	text-align:center;
+	border-collapse:collapse;
+}
+th{
+	background-color:pink;
+}
+th,td{
+	border:1px solid red;
+}
+tr:hover{
+	background-color: green;
+}
